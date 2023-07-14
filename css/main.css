@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: ghostwhite;
+}
+
+.header{
+    width: 100%;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: whitesmoke;
+}
+
+.search_icon{
+    width: 16px;
+    height: 16px;
+    transform: rotate(90deg);
+    margin-top: 7px;
+}
+
+.header_ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 140px;
+}
+
+.header_right{
+    display: flex;
+    gap: 10px;
+}
+
+.beeline_logo{
+    margin-left: -10px;
+    width: 29px;
+    height: 29px;
+}
+
+.header_left{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_link {
+    margin-left: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600!important;
+    font-family: Open Sans,sans-serif;
+    font-size: 1rem;
+}
+
+.nav_item{
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.header_right a{
+    font-family: roboto;
+    color: #333;
+    font-size: 20px;
+}
+
+.header_right button{
+    width: 70px;
+    border-radius: 13px;
+    height: 23px;
+    background: midnightblue;
+    color: white;
+    font-size: 13px;
+    padding-bottom: 2px;
+    margin-top: 5px;
+}
+
+.header_right hr{
+    height: 20px;
+    width: 2px;
+    background: whitesmoke;
+    margin-top: 7px;
+}
+
+.header-bottom{
+    width: 100%;
+    height: 44px;
+    background: #eeeeee;
+    display: flex;
+    align-items: center;
+}
+
+.header_hr{
+    width: 100%;
+    height: 1px;
+    background-color:#eeeeee;
+    display:block;
+}
+
+.header-bottom_link{
+    text-decoration: none;
+    margin-left: 20px;
+    color: grey;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-family: Open Sans,sans-serif;
+}
+
+.header-bottom_item{
+    display: inline-block;
+}
+
+.main{
+    width: 1349px;
+    height: 349px;
+    background: ghostwhite;
+    display: flex;
+}
+
+.img{
+    width: 700px;
+    height: 311px;
+    border: 2px solid ghostwhite;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 7px;
+    transition: all 0.5s linear;
+
+}
+
+.img2{
+    width: 475px;
+    height: 150px;
+    margin-top: 7px;
+    border: 2px solid ghostwhite;
+    border-radius: 8px;
+    transition: all 0.5s linear;
+
+}
+
+.img3{
+    width: 475px;
+    height: 150px;
+    border: 2px solid ghostwhite;
+    border-radius: 8px;
+    margin-top: 7px;
+    transition: all 0.5s linear;
+
+}
+
+.main-left{
+    margin-left: 50px;
+}
+
+.wrap{
+    height: 205px;
+    width: 100%;
+    background: ghostwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.wrap .card{
+    height: 165px;
+    width: 165px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center!important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+    transition: all 0.5s linear;
+}
+
+.card h3{
+    font-size: 1.25rem;
+    line-height: 1.5625rem;
+    color: #020e1c;
+    font-family: Open Sans,sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.wrap .card img{
+    margin-bottom: 15px;
+
+}
+
+h1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 427px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 50px;
+    font-family: Open Sans,sans-serif;
+    color: #333333;
+    display: inline-block;
+}
+
+.big-wrap{
+    width: 100%;
+    height: 663.5px;
+    background: ghostwhite;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.big-wrap .big-card{
+    width: 256px;
+    height: 443px;
+    background: white;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+    margin-top: 30px;
+    border-radius: 15px;
+    transition: all 0.5s linear;
+}
+
+.business_pro{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 78px;
+    bottom: 30px;
+}
+
+.top{
+    text-align: center;
+}
+
+.big-card_icons img{
+    width: 25px;
+    height: 25px;
+}
+
+.big-card_icons .icon1{
+    height: 16.52px;
+}
+
+.big-card_icons .icon3{
+    height: 15.17px;
+}
+
+.big-card button{
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    padding: 3px 4.8px;
+    background-color: #17a2b8;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+a{
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: Open Sans,sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.v{
+    color: #4f5d6c;
+    font-weight: 700;
+    line-height: 1rem;
+    font-size: .875rem;
+}
+
+.big-card_info p{
+    font-weight: 300;
+    font-size: .75rem;
+    color: #020e1c;
+    font-family: Open Sans,sans-serif;
+}
+
+.big-card_bottom{
+    width: 256px;
+    height: 101px;
+    background: #eeeeee;
+    color: #2489d8;
+    margin-top: 59px;
+    position: relative;
+}
+
+.big-card_bottom button{
+    color: #2489d8;
+    background: white;
+    width: 208px;
+    height: 31px;
+    padding: 8px 16px;
+    border-radius: 18px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+    bottom: 20px;
+    left: 25px;
+    position: absolute;
+}
+
+.big-card_main{
+    display: flex;
+    margin-top: 20px;
+}
+
+.big-card_icons{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    position: relative;
+}
+
+.big-card_info{
+    margin-left: 15px;
+    position: relative;
+}
+
+.big-card_bottom p{
+    margin-left: 78px;
+    position: absolute;
+    top: 20px;
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+}
+
+.big-card_icons img{
+    margin-top: 10px;
+}
+
+.icon3{
+    position: absolute;
+    top: 70px;
+}
+
+.icon4{
+    position: absolute;
+    top: 100px;
+}
+
+.header_ul a:hover{
+    color: #fff959;
+}
+
+.header_right a:hover{
+    color: #fff959;
+}
+
+.header-bottom_link:hover{
+    color: black;
+}
+
+.main img:hover{
+    transform: scale(1.03);
+}
+
+.card:hover{
+    transform: scale(1.03);
+}
+
+.big-card:hover{
+    transform: scale(1.03);
+}
+
+.big-card_bottom button:hover{
+    color: black;
+}
+
+
+@media (min-width: 577px) and (max-width: 767px) {
+    .wrap {
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .big-wrap{
+        flex-wrap: wrap;
+    }
+}
+
+
